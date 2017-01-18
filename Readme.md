@@ -1,9 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Степан Еркаев](https://up.htmlacademy.ru/htmlcss/16/user/317897).
-* Наставник: Максим Клевцов.(https://up.htmlacademy.ru/user/191845)
-
----
+* Наставник: Максим Клевцов.
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
