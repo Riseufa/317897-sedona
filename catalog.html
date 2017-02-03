@@ -3,106 +3,109 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class ="main-header">
-      <div class ="container">
+      <div class ="container clearfix">
         <nav class ="main-navigator">
-          <ul>
-            <li><a href ="#">Информация</a></li>
-            <li><a href ="#">Фото и видео</a></li>
-            <li><img src ="img/logo-index.png" width="67px" height="56px" alt="logo"></li>
-            <li><a href ="#">Карта штата</a></li>
-            <li><a href ="#">Гостиницы</a></li>
+          <ul class="nav-navigator">
+            <li class="navigation"><a href="#">Информация</a></li>
+            <li class="navigation"><a href="#">Фото и видео</a></li>
+            <li class="navigation logo"><img src="img/logo-index.png" width="137px" height="70px" alt="logo"></li>
+            <li class="navigation"><a href="#">Карта штата</a></li>
+            <li class="navigation"><a href="#">Гостиницы</a></li>
           </ul>
         </nav>
       </div>
     </header>
-      <div class="form">
-      <form>
-        <div class="Infrastructure">
-          <b>Инфраструктура:</b>
-          <input type="checkbox" checked>
-          <label>Бассейн</label>
-          <br>
-          <input type="checkbox">
-          <label>Парковка</label>
-          <br>
-          <input type="checkbox">
-          <label>Wi-fi</label>
-        </div>
-        <div class="housing-type">
+      <div class="form-catalog">
+        <img src="img/filter-background.jpg" width="1200px" height="216px">
+        <form>
+          <div class="infrastructure">
+            <b>Инфраструктура:</b>
+            <div class="checkbox"><input type="checkbox" checked>
+              <label>Бассейн</label>
+            </div>
+            <div class="checkbox"><input type="checkbox">
+              <label>Парковка</label>
+            </div>
+            <div class="checkbox"><input type="checkbox">
+              <label>Wi-fi</label>
+            </div>
+            </div>
+          <div class="housing-type">
           <b>Тип жилья:</b>
-          <input type="checkbox" checked>
+          <div class="checkbox-housing-type"><input type="checkbox" checked>
           <label>Гостиница</label>
-          <br>
-          <input type="checkbox" checked>
+          </div>
+          <div class="checkbox-housing-type"><input type="checkbox" checked>
           <label>Мотель</label>
-          <br>
-          <input type="checkbox" checked>
+         </div>
+          <div class="checkbox-housing-type"><input type="checkbox" checked>
           <label>Апартаменты</label>
-          <br>
         </div>
-        <div class="cost_per_day">
+        </div>
+        <div class="cost-per-day">
           <b>Стоимость в сутки (р):</b>
-          <input type="text"value="От 0">
-          <input type="text"value="До 3000">
+          <div class="range"><input type="text" value="От 0">
+          <input type="text" value="До 3000"></div>
           <input type="range" min="0" max="3000" step="100">
           <input type="submit" value="Показать">
         </div>
       </form>
     </div>
     <div class="result">
-       <b>Найдено:3</b>
+       <b>Найдено: 3</b>
        <p>Сортировка:</p>
-       <a href="#">по цене</a>
-       <a href="#">по типу</a>
-       <a href="#">по рейтингу</a>
-       <a href="#"><img src="http://placehold.it/150x100"></a>
-       <a href="#"><img src="http://placehold.it/150x100"></a>
+       <a class="criteria" href="#">по цене</a>
+       <a class="criteria" href="#">по типу</a>
+       <a class="criteria" href="#">по рейтингу</a>
+       <a class="triangle" href="#"><img src="img/triangle-up.png"></a>
+       <a class="triangle" href="#"><img src="img/triangle-down.png"></a>
     </div>
-    <div class="searching results">
+    <div class="searching-results">
       <div class="result-1">
-         <img src="img/Layer 21.jpg" width="135px" height="90" alt="Гостиница">
+         <img src="img/amaro-resort.jpg" width="135px" height="90px" alt="Гостиница">
          <b>Amara resort & Spa</b>
          <p>Гостиница</p>
          <p>От 4000 Р.</p>
          <input type="submit" value="Подробнее">
          <input type="submit" value="Забронировать">
-         <img src="http://placehold.it/150x100">
+         <img src="img/arama.png" width="89px" height="17px">
          <p class="rating">Рейтинг: 8,5</p>
       </div>
       <div class="result-2">
-         <img src="img/Layer 22.jpg" width="135px" height="90" alt="Мотель">
-         <h1>Desert Quail Inn</h1>
+         <img src="img/desert-quail.jpg" width="135px" height="90" alt="Мотель">
+         <b>Desert Quail Inn</b>
          <p>Мотель</p>
          <p>От 3000 Р.</p>
          <input type="submit" value="Подробнее">
          <input type="submit" value="Забронировать">
-         <img src="http://placehold.it/150x100">
+         <img src="img/desert.png" width="65px" height="17px">
          <p class="rating">Рейтинг: 8,9</p>
       </div>
       <div class="result-3">
-         <img src="img/Layer 89 copy.jpg" width="135px" height="90" alt="Апартаменты">
+         <img src="img/villas-at.jpg" width="135px" height="90" alt="Апартаменты">
          <b>Villas At Poco Diablo</b>
          <p>Апартаменты</p>
          <p>От 2000 Р.</p>
          <input type="submit" value="Подробнее">
          <input type="submit" value="Забронировать">
-         <img src="http://placehold.it/150x100">
+         <img src="img/villas.png" width="42px" height="17px">
          <p class="rating">Рейтинг: 9,2</p>
       </div>
     </div>
-  </body>
-  <footer class="main-footer">
-    <div class ="container">
-      <b> #visitsedona</b>
+    <footer class="main-footer">
+      <div class ="container-visitsedona">
+        <span>#visitsedona</span>
+      </div>
       <section class="footer-social">
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-ut" href="#">Ютуб</a>
-      </section>
-      <img src="http://placehold.it/150x100">
-    </div>
-  </footer>
+        <a class="social-btn social-btn-inst" href="#"><img src="img/tw.png" width="46" height="48"></a>
+        <a class="social-btn social-btn-fb" href="#"><img src="img/f.png" width="46" height="48"></a>
+        <a class="social-btn social-btn-ut" href="#"><img src="img/YouTube.png" width="46" height="48"></a>
+     </section>
+        <div class="logo-academy"><img src="img/logo-academy.png" width="195" height="39"></div>
+    </footer>
+  </body>
 </html>
