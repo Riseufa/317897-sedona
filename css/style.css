@@ -14,31 +14,25 @@ body {
   box-shadow: 0px 5px 3px 5px #dbdbdb;
   margin: 0 auto;
 }
-
 .index-logo {
   position: absolute;
   top: 50px;
   z-index: 1;
-
 }
-
 .main-header {
   height: 56px;
   position: relative;
   z-index: 3;
   background-color: #ffffff;
-
 }
 .nav-navigator {
-  margin: 0;}
-
+  margin: 0;
+}
 .navigation {
   list-style: none;
   display: inline-block;
   width: 239px;
-
   height: 100px;
-
 }
 .navigation a {
   text-decoration: none;
@@ -47,7 +41,6 @@ body {
   line-height: 1.857;
   text-align: center;
 }
-
 .navigation:nth-child(1)  {
   margin-left: -40px;
   padding-top: 15px;
@@ -61,21 +54,16 @@ body {
 }
 .navigation a:hover {
   color: #81b3d2;
-
 }
-
 .navigation:nth-child(2) {
   height: 26px;
-
   width: 100px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 73px;
   padding-right: 68px;
-
 }
 .navigation:nth-child(3) {
-
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 75px;
@@ -83,13 +71,8 @@ body {
   width: 92px;
   height: 26px;
   margin-left: 236px;
-
-
 }
-
 .navigation:nth-child(4) {
-
-
   padding-top: 15px;
   padding-bottom: 15px;
   height: 26px;
@@ -105,26 +88,17 @@ body {
   padding-left: 50px;
   padding-right: 50px;
   top: 0px;
-
-
 }
 .index {
-
   top: 0;
-}
-
 }
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
-
-
 }
-
 .index-content {
   width: 100%;
-
   height: 424px;
   display: block;
   position: relative;
@@ -133,7 +107,6 @@ body {
   padding-top: 65px;
   text-align: center;
   height: 215px;
-
 }
 span {
   display: block;
@@ -142,17 +115,14 @@ span {
   line-height: 1.238;
   width: 516px;
   height: 48px;
-
   text-align: center;
   margin-left: 282px;
   margin-right: 282px;
   margin-bottom: 100px;
-
   padding-left: 60px;
   padding-right: 60px;
 }
 .call {
-
   margin-left: 354px;
   margin-right: 355px;
   margin-bottom: 57px;
@@ -162,25 +132,21 @@ span {
   text-align: center;
   font-size: 14px;
 }
-
 .index-content-left {
   display: block;
   float: left;
-
   width: 400px;
   height: 256px;
   margin-top: 520px;
   background-color: #81b3d2;
   color: #ffffff;
-
 }
 .index-content-right {
   display: block;
   float: right;
- margin-top: 520px;
+  margin-top: 520px;
   width: 800px;
   height: 256px;
-
 }
 .index-content-left b {
   text-align: center;
@@ -188,12 +154,9 @@ span {
   margin-top: 55px;
   display: block;
   line-height: 21px;
-
   padding-left: 139px;
   padding-right: 141px;
-
   font-weight: bold;
-
 }
 .index-content-left p {
   display: block;
@@ -205,7 +168,6 @@ span {
 }
 .index-content-left .cause-1 {
   text-align: center;
-
   display: block;
   line-height: 21px;
   margin-top: 25px;
@@ -217,20 +179,16 @@ span {
 .fuatures {
   width: 1200px;
   height: 280px;
-
   display: block;
   margin-top: 780px;
   clear: both;
-
 }
-
 .features-index:nth-child(1) {
  float: left;
  width: 240px;
  height: 280px;
  display: inline-block;
  margin: 0;
-
  padding-top: 50px;
  padding-left: 160px;
 }
@@ -240,19 +198,15 @@ span {
   height: 280px;
   display: inline-block;
   margin: 0;
-
   padding-top: 48px;
   padding-left: 160px;
 }
-
-
 .features-index:nth-child(3) {
  float: right;
  width: 240px;
  height: 280px;
  display: inline-block;
  margin: 0;
-
  padding-top: 48px;
  padding-left: 160px;
 }
@@ -275,11 +229,9 @@ span {
   width: 300px;
   height: 50px;
   padding: 0;
-
   display: block;
   margin-top: 15px;
   margin-left: -110px;
-
 }
 .features-index:nth-child(2) .name {
   color: #000000;
@@ -300,7 +252,6 @@ span {
   width: 280px;
   height: 50px;
   padding: 0;
-
   display: block;
   margin-top: 15px;
   margin-left: -100px;
@@ -324,7 +275,6 @@ span {
   width: 280px;
   height: 50px;
   padding: 0;
-
   display: block;
   margin-top: 15px;
   margin-left: -100px;
@@ -332,7 +282,6 @@ span {
 .bridge {
   width: 1200px;
   height: 256px;
-
   margin: 0;
   padding: 0;
 }
@@ -342,7 +291,6 @@ span {
   display: block;
   background-color: #eeeeee;
   margin-top: 0;
-
 }
 .index-content-left-1 {
   display: inline-block;
@@ -354,7 +302,7 @@ span {
 }
 .index-content-right-1 {
   display: block;
-   float: left;
+  float: left;
   height: 256px;
   width: 400px;
   background-color: #81b3d2;
@@ -382,10 +330,7 @@ span {
   width: 76px;
   margin-left: 160px;
   margin-right: 157px;
-
   margin-bottom: 0;
-
-
 }
 .index-content-right-1 .cause-1 {
   margin-top: 20px;
@@ -400,25 +345,21 @@ span {
   display: inline-block;
   float: left;
   height: 256px;
-
 }
 .index-content-4 {
   width: 400px;
   display: inline-block;
   float: left;
   height: 256px;
-
 }
 .index-content-5 {
   width: 400px;
   display: block;
   float: right;
   height: 256px;
-
 }
 .index-content-3-4-5 b {
   font-size: 21px;
-
   font-weight: bold;
   line-height: 21px;
   text-align: center;
@@ -445,7 +386,6 @@ span {
   height: 50px;
   margin-left: 80px;
   text-align: center;
-
   line-height: 21px;
 }
 .index-content-4 p+p {
@@ -454,7 +394,6 @@ span {
   margin-left: 60px;
   display: block;
   text-align: center;
-
   line-height: 21px;
 }
 .index-content-5 p+p {
@@ -466,9 +405,6 @@ span {
 .hotel {
   width: 1200px;
   height: 240px;
-
-
-
 }
 .hotel b {
   font-size: 30px;
@@ -495,23 +431,17 @@ span {
   height: 593px;
   z-index: 1;
   margin-top: -20px;
-
-
-
 }
-.main-footer {
+.footer-index {
   width: 1200px;
   height: 120px;
-
   position: absolute;
   z-index: 2;
   opacity: 0.902;
-  background-image: url("footer-background.png");
   top: 2670px;
   background-color: #f9fbf6;
   padding-bottom: 0;
   margin-bottom: 0;
-
 }
 .search {
   position: absolute;
@@ -520,7 +450,6 @@ span {
   left: 380px;
   width: 580px;
   height: 485px;
-
 }
 .hotel-search button {
   margin: 0;
@@ -551,21 +480,13 @@ span {
   text-align: left;
   line-height: 26px;
   width: 580px;
-
-
 }
 .data {
   position: relative;
   padding-left: 55px;
-
-
-
-
-
   width: 525px;
   height: 40px;
 }
-
 .data button {
   border: none;
   position: absolute;
@@ -584,10 +505,8 @@ background-image: url("../img/calendar-black.png");
 background-image: url("../img/calendar-blue.png");
 }
 .data input {
-
   height: 40px;
   width: 330px;
-
   background-color: #f2f2f2;
   font-size: 14px;
   font-weight: bold;
@@ -597,7 +516,6 @@ background-image: url("../img/calendar-blue.png");
   padding-left: 15px;
   margin-left: 20px;
 }
-
 .race-data {
   margin-top: 55px;
   margin-bottom: 0;
@@ -610,46 +528,30 @@ background-image: url("../img/calendar-blue.png");
   margin-left: 17px;
 }
 .number-of-persons {
-
   margin-top: 30px;
   height: 40px;
 }
 .adults {
-
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
   height: 50px;
   width: 235px;
- float: left;
-
+  float: left;
   margin-left: 55px;
-
-
-
-
-
-
 }
 .adults button {
   border: none;
   height: 40px;
   width: 40px;
-
   background-color: #f2f2f2;
   display: inline-block;
   margin-right: 0;
-
 }
 .adults .minus {
-
-
-
   position: absolute;
   top: 287px;
   left: 168px;
-
-
 }
 .adults .minus::before {
   content: "";
@@ -657,11 +559,12 @@ background-image: url("../img/calendar-blue.png");
   position: absolute;
   top: 19px;
   left: 20px;
-
   height: 3px;
   width: 12px;
-
-
+}
+.adults button:focus,
+.children button:focus{
+outline: none;
 }
 .adults .plus::before {
   content: "";
@@ -669,23 +572,36 @@ background-image: url("../img/calendar-blue.png");
   position: absolute;
   top: 15px;
   left: 10px;
-
-
   height: 11px;
   width: 11px;
 }
-.adults:hover .minus::before {
+ .plus:hover::before {
+  background-image: url("../img/plus-black.png");
+  height: 11px;
+  width: 11px;
+  display: block;
+}
+ .minus:hover::before {
   background-image: url("../img/minus-black.png");
   height: 3px;
   width: 12px;
-
-
-
+  display: block;
+}
+.minus:active::before {
+  background-image: url("../img/minus-blue.png");
+  height: 3px;
+  width: 12px;
+  display: block;
+}
+.plus:active::before {
+  background-image: url("../img/plus-blue.png");
+  height: 11px;
+  width: 11px;
+  display: block;
 }
 .page-active a {
   color: #766357;
 }
-
 .adults input {
   border: none;
   height: 38px;
@@ -693,33 +609,24 @@ background-image: url("../img/calendar-blue.png");
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
-
   text-align: center;
   background-color: #f2f2f2;
   position: absolute;
   top: 287px;
   left: 208px;
-
 }
 .adults .plus {
-
   position: absolute;
   top: 287px;
   left: 248px;
 }
 .number-of-persons label {
   display: inline-block;
-
   height: 30px;
   width: 250px;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
-
-
-
-
 .children {
   font-size: 14px;
   font-weight: bold;
@@ -727,11 +634,9 @@ background-image: url("../img/calendar-blue.png");
   height: 50px;
   width: 220px;
   float: right;
-
-margin-right: 25px;
-margin-top: -2px;
- display: inline-block;
-
+  margin-right: 25px;
+  margin-top: -2px;
+  display: inline-block;
 }
 .children button {
   border: none;
@@ -740,61 +645,162 @@ margin-top: -2px;
   background-color: #f2f2f2;
 }
 .children label {
-
   width: 80px;
-
 }
-
 .children .minus {
   position: absolute;
   top: 286px;
   left: 393px;
-
-
-
+  display: block;
 }
-.children .minus::before{
+.children .minus::before {
   content: "";
   background-image: url("../img/minus.png");
   height: 3px;
   width: 12px;
-  display: block;
-
+  position: absolute;
+  top: 19px;
+  left: 20px;
 }
 .children .plus {
   position: absolute;
   top: 286px;
   left: 473px;
-
+}
+.children .plus::before {
+  content: "";
+  background-image: url("../img/plus.png");
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  height: 11px;
+  width: 11px;
 }
 .children button:hover,
 .adults button:hover {
   color: #000000;
-
+}
+.children .minus:hover::before {
+  background-image: url("../img/minus-black.png");
+  height: 3px;
+  width: 12px;
+}
+.children .plus:hover::before {
+  background-image: url("../img/plus-black.png");
+  height: 11px;
+  width: 11px;
 }
 .children button:active,
 .adults button:active {
   color: #81b3d2;
 }
-
+.children .plus:active::before {
+  background-image: url("../img/plus-blue.png");
+  height: 11px;
+  width: 11px;
+}
+.children .minus:active::before {
+  background-image: url("../img/minus-blue.png");
+  height: 3px;
+  width: 12px;
+}
 .children input {
   border: none;
   height: 38px;
   width: 40px;
   background-color: #f2f2f2;
-
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
-position: absolute;
+  position: absolute;
   text-align: center;
   top: 286px;
   left: 433px;
-
-
 }
-
-
+.social-btn-tw::before  {
+  content: "";
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  position: absolute;
+  left: 520px;
+}
+.social-btn-tw:hover::before,
+.social-btn-ut:hover::before,
+.social-btn-fb:hover::before {
+  background-color: #669ec0;
+}
+.social-btn-tw:active::before,
+.social-btn-ut:active::before,
+.social-btn-fb:active::before{
+  background-color: #5496bd;
+}
+.social-btn-tw:active::after {
+  background-image: url("../img/tw-click.png");
+}
+.social-btn-fb:active::after {
+  background-image: url("../img/f-click.png");
+}
+.social-btn-ut:active::after {
+  background-image: url("../img/ut-click.png");
+}
+.social-btn-tw::after {
+  content: "";
+  background-image: url("../img/tw.png");
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  top: 52px;
+  left: 535px;
+}
+.social-btn-fb::after {
+  content: "";
+  background-image: url("../img/f.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  top: 51px;
+  left: 593px;
+}
+.logo-academy a {
+  background-image: url("../img/logo-academy.png");
+  width: 195px;
+  height: 39px;
+  display: block;
+}
+.logo-academy a:hover {
+  background-image: url("../img/logo-academy-hover.png");
+}
+.logo-academy a:active {
+  background-image: url("../img/logo-academy-click.png");
+}
+.social-btn-ut::after {
+  content: "";
+  background-image: url("../img/ut.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 17px;
+  height: 15px;
+  top: 51px;
+  left: 645px;
+}
+.social-btn-fb::before {
+  content: "";
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  position: absolute;
+  left: 575px;
+}
+.social-btn-ut::before {
+  content: "";
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  position: absolute;
+  left: 630px;
+}
 .submit input {
   border: none;
   margin-top: 35px;
@@ -805,18 +811,13 @@ position: absolute;
   font-size: 21px;
   line-height: 26px;
   margin-left: 58px;
-
-
 }
-
-
 .container-visitsedona span {
   font-size: 21px;
   line-height: 26px;
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-align: center;
-
   height: 70px;
   width: 280px;
   display: inline-block;
@@ -828,28 +829,22 @@ position: absolute;
   float: left;
   display: block;
   margin-left: 405px;
-
   height: 82px;
   width: 300px;
   margin-top: -223px;
   padding-top: 38px;
   padding-left: 120px;
 }
-.footer-social:hover {
-
-}
 .logo-academy {
   display: block;
   float: right;
   margin-right: 0;
   margin-top: -223px;
-
   height: 80px;
   width: 290px;
   padding-left: 80px;
   padding-top: 40px;
 }
-
 .data input:hover {
   background-color: #ebebeb;
 }
@@ -870,9 +865,48 @@ outline: none;
 .navigation a:active {
   color: #dadada;
 }
-
-
-
 .search-hotels-in-sedona-show {
   display: none;
+}
+
+
+
+
+
+.housing-choice {
+
+  width: 1200px;
+  height: 215px;
+  position: absolute;
+  z-index: 6;
+  top: 55px;
+}
+.infrastructure {
+  display: inline-block;
+  height: 217px;
+  width: 310px;
+
+  color: #ffffff;
+}
+.housing-choice b {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+
+}
+.infrastructure:first-child b {
+
+  margin-left: 73px;
+  margin-top: 30px;
+  display: block;
+}
+.infrastructure .checkbox {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 28px;
+  margin-left: 75px;
+
+}
+.infrastructure label {
+  padding-left: 20px;
 }
