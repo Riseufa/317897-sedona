@@ -1361,6 +1361,19 @@ display: none;
   cursor: pointer;
   padding-left: 35px;
 }
+.checkbox-input:checked + label::before {
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-position: -5px -5px;
+  position: absolute;
+}
+
+
+
+
 .checkbox-input + label::before {
   content: "";
   background-image: url("../img/spritesheet.png");
@@ -1368,21 +1381,72 @@ display: none;
   display: block;
   width: 26px;
   height: 22px;
-  background-position: -5px -5px;
+  background-position: -5px -37px;
 
   position: absolute;
-  top: 80px;
+
 
 
 
 
 }
-.checkbox-input:checked + label::before {
-  background-image: url("../img/spritesheet.png");
-  background-repeat: no-repeat;
-  display: block;
-  width: 22px;
-  height: 22px;
-  background-position: -5px -37px;
-  top: 120px;
+.triangle-up::before {
+  content: "";
+  background-image: url("../img/triangle-up.png");
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 317px;
+
+
+
+}
+.triangle-down::before {
+  content: "";
+  background-image: url("../img/triangle-down.png");
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 317px;
+  right: 150px;
+}
+.triangle-up:hover::before{
+  background-image: url("../img/triangle-up-black.png");
+
+
+}
+.triangle-down:hover::before {
+  background-image: url("../img/triangle-down-black.png");
+}
+.triangle-up:active::before{
+  background-image: url("../img/triangle-up-blue.png");
+
+
+}
+.triangle-down:active::before {
+  background-image: url("../img/triangle-down-blue.png");
+}
+.more:hover {
+  background-color: #669ec0;
+}
+.more:active {
+  background-color: #5496bd;
+
+}
+.reservation:hover {
+  background-color: #604e43;
+}
+.reservation:active {
+  background-color: #503e33;
+}
+.name-amara:hover,
+.name-desert:hover,
+.name-villas:hover {
+  color: #81b3d2;
+}
+.name-amara:active,
+.name-desert:active,
+.name-villas:active {
+  color: #000000;
+  opacity: 0.3;
 }
