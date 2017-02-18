@@ -487,7 +487,9 @@ span {
   width: 525px;
   height: 40px;
 }
-.data button {
+.exit-data::before,
+.race-data::before {
+  content: "";
   border: none;
   position: absolute;
   right: 80px;
@@ -498,10 +500,12 @@ span {
   width: 21px;
   outline: none;
 }
-.data button:hover {
+.exit-data:hover::before,
+.race-data:hover::before {
 background-image: url("../img/calendar-black.png");
 }
-.data button:active {
+.exit-data:active::before,
+.race-data:active::before {
 background-image: url("../img/calendar-blue.png");
 }
 .data input {
