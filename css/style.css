@@ -404,8 +404,8 @@ span {
 .hotel {
   width: 1200px;
   height: 240px;
-  position: absolute;
-  z-index: 3;
+
+
 }
 .hotel b {
   font-size: 30px;
@@ -431,7 +431,7 @@ span {
   width: 1200px;
   height: 593px;
   z-index: 1;
-  top: 267px;
+
 }
 .footer-index {
   width: 1200px;
@@ -468,14 +468,14 @@ span {
   text-align: center;
   line-height: 26px;
   border: none;
+  margin-top: 30px;
 }
 .hotel-search button:hover {
   cursor: pointer;
   outline: none;
 }
 .search-hotels-in-sedona {
-  margin-top: -30px;
-  padding-top: 30px;
+
   height: 395px;
   display: block;
   background-color: #ffffff;
@@ -484,6 +484,8 @@ span {
   text-align: left;
   line-height: 26px;
   width: 580px;
+  position: absolute;
+  z-index: 2;
 }
 .data {
   position: relative;
@@ -562,8 +564,9 @@ background-image: url("../img/calendar-blue.png");
 }
 .adults .minus {
   position: absolute;
-  top: 465px;
-  left: 470px;
+  top: 195px;
+  left: 168px;
+
 }
 .adults .minus::before {
   content: "";
@@ -624,14 +627,14 @@ outline: none;
   text-align: center;
   background-color: #f2f2f2;
   position: absolute;
-  top: 465px;
-  left: 510px;
+  top: 195px;
+  left: 208px;
 
 }
 .adults .plus {
   position: absolute;
-  top: 465px;
-  left: 550px;
+  top: 195px;
+  left: 248px;
 }
 .number-of-persons label {
   display: inline-block;
@@ -662,8 +665,8 @@ outline: none;
 }
 .children .minus {
   position: absolute;
-  top: 466px;
-  left: 703px;
+  top: 195px;
+  left: 393px;
   display: block;
 }
 .children .minus::before {
@@ -677,8 +680,8 @@ outline: none;
 }
 .children .plus {
   position: absolute;
-  top: 466px;
-  left: 780px;
+  top: 195px;
+  left: 473px;
 }
 .children .plus::before {
   content: "";
@@ -727,8 +730,8 @@ outline: none;
   line-height: 26px;
   position: absolute;
   text-align: center;
-  top: 466px;
-  left: 743px;
+  top: 195px;
+  left: 433px;
 }
 .social-btn-tw::before  {
   content: "";
