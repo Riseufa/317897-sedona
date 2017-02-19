@@ -1131,11 +1131,7 @@ outline: none;
 border-bottom: none;
 
 }
-.triangle-up  {
-  margin-left: 490px;
-  margin-right: 10px;
 
-}
 .searching-results {
   width: 1200px;
   height: 455px;
@@ -1435,6 +1431,8 @@ display: none;
 .housing-type label {
   position: relative;
 }
+
+
 .triangle-up::before {
   content: "";
   background-image: url("../img/triangle-up.png");
@@ -1442,6 +1440,7 @@ display: none;
   width: 11px;
   height: 10px;
   top: 317px;
+  right: 170px;
 
 
 
@@ -1454,6 +1453,7 @@ display: none;
   height: 10px;
   top: 317px;
   right: 150px;
+
 }
 .triangle-up:hover::before{
   background-image: url("../img/triangle-up-black.png");
