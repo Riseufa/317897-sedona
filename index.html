@@ -8,31 +8,35 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+
     <header class ="main-header">
       <div class ="container clearfix">
         <nav class ="main-navigator">
-          <ul class="nav-navigator">
+          <ul class="nav-navigator nav-navigator-left">
             <li class="navigation"><a href="#">Информация</a></li>
             <li class="navigation"><a href="#">Фото и видео</a></li>
-            <li class="navigation"><a href="#">Карта штата</a></li>
+          </ul>
+            <a><img src="img/logo-index.png" width="138" height="70" alt="logo"></a>
+            <ul class="nav-navigator nav-navigator-right"><li class="navigation"><a href="#">Карта штата</a></li>
             <li class="navigation"><a href="catalog.html">Гостиницы</a></li>
           </ul>
-          <a><img src="img/logo-index.png" width="137" height="70" alt="logo"></a>
+
         </nav>
       </div>
     </header>
-    <div class="index-logo clearfix">
-      <img src="img/intro.jpg" width="1200" height="780" alt="background">
+    <div class="index-logo">
+      <img src="img/intro.jpg" width="1200" height="508" alt="background">
+
     </div>
     <main class="main-container">
-      <div class="index-content clearfix">
-        <span>Седона - Небольшой городок в Аризоне, заслуживающий большего!</span>
-        <p class="call">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньен!</p>
+      <div class="index-content">
+        <span class="lead">Седона 	&#8212; Небольшой городок в Аризоне, заслуживающий большего!</span>
+        <p class="call">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </div>
       <div class="index-content-left">
         <b>Настоящий городок</b>
-        <p>- № 1 -</p>
-        <p class="cause-1">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+        <p>&#8212; №1 &#8212;</p>
+        <p class="cause-1">Седона &#8212; не аттракцион для туристов, там течет своя жизнь</p>
       </div>
       <div class = "index-content-right">
         <img src ="img/a_real_town.jpg" width="800" height="256" alt="№1">
@@ -44,12 +48,12 @@
           <p class = "name-content">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class = "features-index">
-          <img src ="img/food.png" width="75" height="72" alt="Еда">
+          <img src ="img/food.png" width="74" height="70" alt="Еда">
           <b class = "name">Еда</b>
-          <p class = "name-content">Всегда заказывайте фирменый бургер, вы не разочаруетесь!</p>
+          <p class = "name-content">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class = "features-index">
-          <img src ="img/souvenir.png" width="75" height="72" alt="Сувениры">
+          <img src ="img/souvenir.png" width="64" height="76" alt="Сувениры">
           <b class = "name">Сувениры</b>
           <p class = "name-content">Не только китайского, но и местного производства!</p>
         </div>
@@ -60,31 +64,31 @@
           </div>
           <div class="index-content-right-1">
             <b>Там есть мост дьявола</b>
-            <p>- № 2 -</p>
-            <p class="cause-1">Да по нему можно пройти! Если конечно вы осмелитесь</p>
+            <p>&#8212; №2 &#8212;</p>
+            <p class="cause-1">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
         </div>
           <div class="index-content-3-4-5">
             <div class="index-content-3">
               <b>Небольшая площадь</b>
-              <p>- № 3 -</p>
-              <p>Все достопримечательности находятся очень близко</p>
+              <p class="number-content">&#8212; №3 &#8212;</p>
+              <p class="advantage">Все достопримечательности находятся очень близко</p>
            </div>
             <div class="index-content-4">
               <b>Красивая дорога</b>
-              <p>- № 4 -</p>
-              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              <p class="number-content">&#8212; №4 &#8212;</p>
+              <p class="advantage">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
            </div>
             <div class="index-content-5">
               <b>Мало туристов</b>
-              <p>- № 5 -</p>
-              <p>Большинство едет в Гранд Каньон и толпится там</p>
+              <p class="number-content">&#8212; №5 &#8212;</p>
+              <p class="advantage">Большинство едет в Гранд Каньон и толпится там</p>
            </div>
          </div>
            <div class="hotel">
              <b>Заинтересовались?</b>
              <p>Укажите предполагаемы даты поездки,<br>
-               и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+               и мы покажем вам лучшие предложения гостиниц в Седоне</p></div>
              <div class="search">
                <div class="hotel-search"><button>Поиск гостиницы в Седоне</button></div>
                  <form class="search-hotels-in-sedona" method="post">
@@ -100,27 +104,28 @@
                     </div>
                   <div class="number-of-persons">
                      <div class="adults">
-                        <label>Взрослые:</label>
+                        <label>Взрослые:
                         <button class="minus" type="button"></button>
                         <input type="text" value="2">
                         <button class="plus" type="button"></button>
+                        </label>
                     </div>
                     <div class="children">
-                      <label>Дети:</label>
+                      <label>Дети:
                       <button class="minus" type="button"></button>
                       <input type="text" value="0">
                       <button class="plus" type="button"></button>
+                      </label>
                     </div>
                    </div>
                     <div class="submit"><input type="submit" value="Найти"></div>
                 </form>
                </div>
-             </div>
-          </main>
+            </main>
               <div class="map"><img src="img/map.jpg" width="1200" height="593" alt="Карта">
-                <footer class="main-footer footer-index">
+                <footer class="footer-index">
                   <div class ="container-visitsedona">
-                    <span>#visitsedona</span>
+                    <span class="visitsedona">#visitsedona</span>
                   </div>
                   <section class="footer-social">
                     <a class="social-btn social-btn-tw" href="#"></a>
