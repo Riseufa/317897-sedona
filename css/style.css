@@ -29,7 +29,7 @@ body {
   width: 1200px;
   height: 57px;
   position: absolute;
-  top: 507px;
+  top: 451px;
 }
 
 .nav-navigator {
@@ -42,7 +42,6 @@ body {
   display: block;
   vertical-align: middle;
   width: 240px;
-  height: 56px;
   padding-top: 14px;
 }
 
@@ -86,6 +85,7 @@ body {
   font-size: 0;
   line-height: 0;
   height: 508px;
+  position: relative;
 }
 
 .clearfix::after {
@@ -1079,14 +1079,14 @@ input:focus {
   display: inline-block;
   font-size: 14px;
   line-height: 21px;
-  vertical-align: middle;
+
   cursor: pointer;
 }
 
 .price-controls .min-price, .price-controls .max-price {
   width: 90px;
   margin-left: 60px;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 .price-controls input {
@@ -1096,7 +1096,8 @@ input:focus {
   font: inherit;
   background: none;
   border: none;
-  vertical-align: middle;
+
+
 }
 
 .price-controls::after {
